@@ -1,8 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 const App = () => {
-    return <h1 className="text-3xl font-bold underline">Hello world</h1>;
+    return (
+        <div class="h-full dark:bg-slate-800">
+            <h1>Hello</h1>
+        </div>
+    );
 };
 
 export default App;
