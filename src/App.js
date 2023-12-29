@@ -4,7 +4,11 @@ import profilePic from "./images/edro-profile.PNG";
 const App = () => {
     return (
         <div className="h-screen flex flex-col items-center justify-center dark:bg-dark-mode text-slate-50">
-            <img className="rounded-full h-48 w-48 mb-4" src={profilePic} />
+            <img
+                className="rounded-full h-48 w-48 mb-4"
+                src={profilePic}
+                alt="profile"
+            />
             <h1 className="text-4xl font-bold">
                 Hi, I am <span>Edro Gonzales</span>{" "}
                 <span id="hello-emoji">👋</span>
