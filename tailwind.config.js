@@ -6,6 +6,9 @@ module.exports = {
             backgroundColor: {
                 "dark-mode": "#373739",
             },
+            fontFamily: {
+                inter: ["Inter", "sans-serif"],
+            },
         },
     },
     plugins: [],

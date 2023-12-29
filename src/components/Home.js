@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../images/edro-profile.PNG";
+import profilePic from "../assets/images/edro-profile.PNG";
 
 const Home = () => {
     return (

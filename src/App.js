@@ -6,7 +6,7 @@ const App = () => {
     const location = useLocation();
 
     return (
-        <div className="h-screen flex flex-col items-center justify-center dark:bg-dark-mode text-slate-50">
+        <div className="h-screen flex flex-col items-center justify-center dark:bg-dark-mode text-slate-50 font-inter">
             <Navbar />
             <Routes location={location} key={location.pathname}>
                 <Route index element={<Home />} />
