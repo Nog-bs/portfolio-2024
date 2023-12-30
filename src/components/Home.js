@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className="flex flex-col items-center justify-center pt-24">
+        <div className="flex flex-col items-center justify-center">
             <img
                 className="rounded-full h-48 w-48 mb-4"
                 src={profilePic}
