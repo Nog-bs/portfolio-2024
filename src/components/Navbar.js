@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    const baseStyles = "text-xl mr-4 border-b-2 transition duration-500";
+    const baseStyles =
+        "text-sm md:text-base mr-4 border-b-2 transition duration-500";
     const activeStyles = "text-highlight border-highlight";
     const inactiveStyles =
         "border-transparent hover:text-highlight hover:border-highlight";
