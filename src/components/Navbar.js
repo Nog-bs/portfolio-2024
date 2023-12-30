@@ -32,6 +32,16 @@ const Navbar = () => {
                     About
                 </NavLink>
                 <NavLink
+                    to="/projects"
+                    className={({ isActive }) =>
+                        `${baseStyles} ${
+                            isActive ? activeStyles : inactiveStyles
+                        }`
+                    }
+                >
+                    Projects
+                </NavLink>
+                <NavLink
                     to="/contact"
                     className={({ isActive }) =>
                         `${baseStyles.replace("mr-4", "")} ${
