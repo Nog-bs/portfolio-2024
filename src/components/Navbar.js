@@ -1,19 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+    const baseStyles = "text-xl mr-4 border-b-2 transition duration-500";
+    const activeStyles = "text-highlight border-highlight";
+    const inactiveStyles =
+        "border-transparent hover:text-highlight hover:border-highlight";
+
     return (
-        <div className="fixed top-0 space-x-0.5 mt-36">
+        <div className="h-1/4 flex flex-col items-center justify-center space-x-0.5 pt-24">
             <div className="nav-links">
-                <Link className="text-xl mr-4" to="/">
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        `${baseStyles} ${
+                            isActive ? activeStyles : inactiveStyles
+                        }`
+                    }
+                    end
+                >
                     Home
-                </Link>
-                <Link className="text-xl mr-4" to="/about">
+                </NavLink>
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                        `${baseStyles} ${
+                            isActive ? activeStyles : inactiveStyles
+                        }`
+                    }
+                >
                     About
-                </Link>
-                <Link className="text-xl" to="/contact">
+                </NavLink>
+                <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                        `${baseStyles.replace("mr-4", "")} ${
+                            isActive ? activeStyles : inactiveStyles
+                        }`
+                    }
+                >
                     Contact
-                </Link>
+                </NavLink>
             </div>
         </div>
     );
