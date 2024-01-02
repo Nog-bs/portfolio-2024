@@ -4,9 +4,11 @@ import transition from "./transition";
 
 const Projects = () => {
     return (
-        <div className="bg-neutral-800">
+        <div>
             <div className="flex h-48 items-center justify-center">
-                Welcome to my Projects Section
+                <h1 className="inline-block px-6 py-2 mt-12 text-white bg-highlight rounded">
+                    This page is a work in progress...
+                </h1>
             </div>
             <div className="flex h-48 items-center justify-center">
                 <span className="font-semibold uppercase text-neutral-500">

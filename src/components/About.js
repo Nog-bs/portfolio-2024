@@ -1,6 +1,7 @@
 import React from "react";
 import transition from "./transition";
 import profilePic from "../assets/images/edro-profile.PNG";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
     return (
@@ -11,9 +12,10 @@ const About = () => {
                 alt="profile"
             />
             <p className="text-xs md:text-sm w-full md:w-1/2 m-2 text-center">
-                As a dedicated student in the Computer System's Technology
-                Program at BCIT, I am passionate about leveraging my growing
-                expertise in software development to create impactful solutions.
+                Hi, I am Edro! I am a dedicated student in the Computer System's
+                Technology Program at BCIT, I am passionate about leveraging my
+                growing expertise in software development to create impactful
+                solutions.
             </p>
             <p className="text-xs md:text-sm w-full md:w-1/2 m-2 text-center">
                 My journey so far includes hands-on experience in full-stack web
@@ -28,6 +30,12 @@ const About = () => {
                 technical acumen needed in the ever-evolving field of
                 technology.
             </p>
+            <NavLink
+                to="/projects"
+                className="inline-block px-6 py-2 my-8 text-white bg-highlight rounded transition duration-500 hover:bg-white hover:text-highlight"
+            >
+                See My Projects
+            </NavLink>
         </div>
     );
 };
