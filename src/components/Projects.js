@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import HappyBonsai from "../assets/images/happy-bonsai.jpg";
 import Portfolio from "../assets/images/portfolio.png";
@@ -92,6 +93,12 @@ const Projects = () => {
             {projectList.map((project) => (
                 <ProjectCard key={project.title} project={project} />
             ))}
+            <NavLink
+                to="/contact"
+                className="inline-block px-6 py-2 my-8 text-white bg-highlight rounded transition duration-500 hover:bg-white hover:text-highlight"
+            >
+                Connect with Me
+            </NavLink>
         </div>
     );
 };
