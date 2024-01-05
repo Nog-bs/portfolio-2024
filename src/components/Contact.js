@@ -19,7 +19,7 @@ const Contact = () => {
                 prospect of embarking on new adventures and growth
                 opportunities. Ready to kickstart something amazing? Let's
                 connect! Check out the links below and let's get this journey
-                started!
+                started! 🚀
             </p>
             <div className="flex mt-6">
                 <a
