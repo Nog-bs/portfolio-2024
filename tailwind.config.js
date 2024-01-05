@@ -10,6 +10,7 @@ module.exports = {
                 highlight: "#98B9AB",
             },
             backgroundColor: {
+                highlight: "#98B9AB",
                 "dark-mode": "#373739",
             },
             fontFamily: {

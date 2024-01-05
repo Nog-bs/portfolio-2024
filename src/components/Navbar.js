@@ -9,7 +9,7 @@ const Navbar = () => {
         "border-transparent hover:text-highlight hover:border-highlight";
 
     return (
-        <div className="fixed w-full top-0 start-0 h-1/4 flex flex-col items-center justify-center space-x-0.5 pt-24">
+        <div className="fixed w-full top-0 start-0 flex flex-col items-center justify-center space-x-0.5 pt-24 md:pt-12 h-1/4 md:h-24 ">
             <div className="nav-links">
                 <NavLink
                     to="/"
