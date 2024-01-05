@@ -14,7 +14,7 @@ const Contact = () => {
                 alt="profile"
             />
             <h1 className="inline-block mb-4">Connect with Me!</h1>
-            <p className="text-xs w-1/2 text-center">
+            <p className="text-xs w-full md:w-1/2 text-center">
                 Thanks for diving into my portfolio! I'm thrilled at the
                 prospect of embarking on new adventures and growth
                 opportunities. Ready to kickstart something amazing? Let's
