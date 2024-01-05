@@ -1,10 +1,19 @@
 import React from "react";
+import Portfolio from "../assets/images/portfolio.png";
 import PikachuAdventure from "../assets/images/pikachu-adventure.png";
 import RateVanRent from "../assets/images/rate-van-rent.png";
 import transition from "./transition";
 
 // Sample data for projects
 const projectList = [
+    {
+        title: "Portfolio",
+        imageUrl: Portfolio,
+        description:
+            "My portfolio website is a React-based application that showcases my projects and skills. This website is designed to be responsive and accessible.",
+        technologies: ["React", "Tailwind CSS", "Framer Motion"],
+        url: "https://github.com/Nog-bs/portfolio-2024",
+    },
     {
         title: "Pikachu's Adventure",
         imageUrl: PikachuAdventure,
