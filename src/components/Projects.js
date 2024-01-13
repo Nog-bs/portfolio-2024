@@ -9,6 +9,23 @@ import transition from "./transition";
 
 const projectList = [
     {
+        title: "Rate Van Rent",
+        imageUrl: RateVanRent,
+        description:
+            "'Rate Van Rent' is a mobile web browser application designed to revolutionize the renting experience in Vancouver. This platform provides a unique perspective on housing options, allowing renters to share and access real experiences, distinct from traditional platforms like Facebook or Craigslist.",
+        technologies: ["JavaScript", "HTML", "CSS", "Firebase"],
+        url: "https://comp1800-demo-202330-edro.web.app",
+        githubUrl: "https://github.com/Nog-bs/edro-rate-van-rent",
+    },
+    {
+        title: "Pikachu's Adventure",
+        imageUrl: PikachuAdventure,
+        description:
+            "In 'Pikachu's Adventure', players embark on a thrilling journey in a nostalgic Pokemon themed setting. Developed collaboratively, this Python-based adventure game blends strategic gameplay inspired by the Pokemon series.",
+        technologies: ["Python", "Pygame", "Unit Testing", "Documentation"],
+        url: "https://github.com/Nog-bs/pikachus_adventure",
+    },
+    {
         title: "Happy Bonsai",
         imageUrl: HappyBonsai,
         description:
@@ -24,23 +41,6 @@ const projectList = [
             "My portfolio website is a React-based application that showcases my projects and skills. This website is designed to be responsive and accessible.",
         technologies: ["React", "Tailwind CSS", "Framer Motion"],
         url: "https://github.com/Nog-bs/portfolio-2024",
-    },
-    {
-        title: "Pikachu's Adventure",
-        imageUrl: PikachuAdventure,
-        description:
-            "In 'Pikachu's Adventure', players embark on a thrilling journey in a nostalgic Pokemon themed setting. Developed collaboratively, this Python-based adventure game blends strategic gameplay inspired by the Pokemon series.",
-        technologies: ["Python", "Pygame", "Unit Testing", "Documentation"],
-        url: "https://github.com/Nog-bs/pikachus_adventure",
-    },
-    {
-        title: "Rate Van Rent",
-        imageUrl: RateVanRent,
-        description:
-            "'Rate Van Rent' is a mobile web browser application designed to revolutionize the renting experience in Vancouver. This platform provides a unique perspective on housing options, allowing renters to share and access real experiences, distinct from traditional platforms like Facebook or Craigslist.",
-        technologies: ["JavaScript", "HTML", "CSS", "Firebase"],
-        url: "https://comp1800-demo-202330-edro.web.app",
-        githubUrl: "https://github.com/Nog-bs/edro-rate-van-rent",
     },
 ];
 
