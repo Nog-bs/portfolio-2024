@@ -38,7 +38,7 @@ const projectList = [
         title: "Portfolio",
         imageUrl: Portfolio,
         description:
-            "My portfolio website is a React-based application that showcases my projects and skills. This website is designed to be responsive and accessible.",
+            "My portfolio website is a React made with Tailwind that showcases my projects and skills. This website is designed to be responsive and has some animations thanks to Framer Motion.",
         technologies: ["React", "Tailwind CSS", "Framer Motion"],
         url: "https://github.com/Nog-bs/portfolio-2024",
     },
