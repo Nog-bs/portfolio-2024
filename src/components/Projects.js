@@ -58,7 +58,7 @@ const ProjectCard = ({ project }) => {
                 alt={project.title}
             />
             <div className="p-4 flex flex-col justify-between leading-normal">
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white mb-2">
+                <h5 className="text-2xl font-bold tracking-tight text-white mb-2">
                     {project.title}
                 </h5>
                 <div className="flex flex-wrap justify-start mb-2">
@@ -71,7 +71,7 @@ const ProjectCard = ({ project }) => {
                         </span>
                     ))}
                 </div>
-                <p className="text-xs text-gray-700 dark:text-gray-400 mb-3">
+                <p className="text-xs text-gray-400 mb-3">
                     {project.description}
                 </p>
                 <a
