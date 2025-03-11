@@ -5,9 +5,18 @@ import HappyBonsai from "../assets/images/happy-bonsai.jpg";
 import Portfolio from "../assets/images/portfolio.png";
 import PikachuAdventure from "../assets/images/pikachu-adventure.png";
 import RateVanRent from "../assets/images/rate-van-rent.png";
+import Ethos from "../assets/images/ethos.png";
 import transition from "./transition";
 
 const projectList = [
+    {
+        title: "Ethos",
+        imageUrl: Ethos,
+        description:
+            "Ethos is a discord check-in bot that I created to track leetcode consistency within my school set to promote continuous learning",
+        technologies: ["Python", "JSON"],
+        githubUrl: "https://github.com/Nog-bs/ethos",
+    },
     {
         title: "Rate Van Rent",
         imageUrl: RateVanRent,
