@@ -8,17 +8,17 @@ A personal portfolio website showcasing my projects, skills, and experiences in 
 
 ## Built With
 
--   React
--   React Router Dom
--   React Type Animation
--   Tailwind CSS
--   Framer Motion
--   Material UI Icons
+- React
+- React Router Dom
+- React Type Animation
+- Tailwind CSS
+- Framer Motion
+- Material UI Icons
 
 ## Features
 
--   Responsive design ensuring compatibility across various devices.
--   Interactive elements for an engaging user experience.
+- Responsive design ensuring compatibility across various devices.
+- Interactive elements for an engaging user experience.
 
 ## Running the Project Locally
 
@@ -30,10 +30,10 @@ To run this project on your local machine:
 
 ## Future Enhancements
 
--   Adding user testimonials
--   Resume work section
+- Adding user testimonials
+- Resume work section
 
 ## Contact
 
--   [LinkedIn](https://www.linkedin.com/in/edrogonzales/)
--   [GitHub](https://github.com/Nog-bs/)
+- [LinkedIn](https://www.linkedin.com/in/edrogonzales/)
+- [GitHub](https://github.com/edge-row/)
