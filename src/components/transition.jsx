@@ -1,21 +1,23 @@
-import { motion } from 'framer-motion'
 import React from 'react'
+import { motion } from 'framer-motion'
+import PropTypes from 'prop-types'
 
-const transition = (OgComponent) => {
-  return function () {
+function transition(OgComponent) {
+  function TransitionComponent(props) {
+    const { children, ...rest } = props
     return (
       <>
-        <OgComponent />
+        <OgComponent {...rest}>{children}</OgComponent>
         <motion.div
           className='slide-in'
-          initial={{ scaleY: 0 }}
+          initial={{ scaleY: 1 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 1 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         />
         <motion.div
           className='slide-out'
-          initial={{ scaleY: 1 }}
+          initial={{ scaleY: 0 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 1 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
@@ -23,6 +25,14 @@ const transition = (OgComponent) => {
       </>
     )
   }
+
+  TransitionComponent.displayName = `Transition(${OgComponent.displayName || OgComponent.name || 'Component'})`
+
+  return TransitionComponent
+}
+
+transition.propTypes = {
+  children: PropTypes.node,
 }
 
 export default transition
